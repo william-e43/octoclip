@@ -1,0 +1,126 @@
+{
+  "CephalopodElderGenerator": {
+    "ColorPool": [
+      "#FF6B6B", "#FF9F1C", "#FFD93D", "#FFB400", "#E07A5F", "#B56576", "#FF8B6A", "#F49C63",
+      "#E76F51", "#D95D39", "#FFB5A7", "#F4A261", "#F7C59F", "#FEC89A", "#FAD2E1",
+
+      "#A8E6CF", "#89CFF0", "#00B4D8", "#90E0EF", "#8DD7C1", "#4EA8DE", "#A0CED9", "#BDE0FE",
+      "#CDB4DB", "#CFF4F9", "#F7C5E3", "#E3C8F9", "#FEC8D8", "#FAEDCB", "#FFF3B0",
+
+      "#1B1B1B", "#2E294E", "#3C1642", "#1F2041", "#3A506B", "#4A5759", "#133C55",
+      "#6E7C7C", "#884C5E", "#722F37", "#7F4F24", "#3C2A4D", "#645CBB", "#C1A57B",
+      "#B5179E", "#00F5D4", "#C1FBA4", "#FF5DA2", "#E6B8F5", "#9BF6FF"
+    ],
+    "BackgroundPool": [
+      "#FAE1A7",
+      "#FFF3B0",
+      "#FAEDCB",
+      "#F7D488",
+      "#FFE066",
+      "#F9D8B7",
+      "#EDE8F3",
+      "#BDE0FE",
+      "#CFF4F9",
+      "#F7C5E3"
+    ],
+    "SkinTypes": {
+      "TieDye": 0.22,
+      "Opal": 0.18,
+      "Pearl": 0.18,
+      "Quartz": 0.18,
+      "Coral": 0.12,
+      "GothInk": 0.07,
+      "RustedPearl": 0.05
+    },
+    "HeadTypes": [
+      "Smooth",
+      "tentacled",
+      "Barnacle Ridge",
+      "Veined Dome",
+      "Wrinkled Elder",
+      "Chromatic Bulb",
+      "Horned Crest",
+      "Bioluminescent Spots"
+    ],
+    "Outfits": [
+      "Planet Earth White Tee", "Planet Mars Black Tee", "Oil-Stained Apron", "Dockworker's Coat", "Grease-Streaked Tunic",
+      "Hi-Vis Vest", "Denim Jacket", "Graphic Tee", "Work Polo", "Plaid Flannel", "Hoodie",
+      "Puffer Vest", "Chef Apron", "Courier Windbreaker",
+      "Construction Harness", "Barista Apron", "Delivery Jacket",
+      "Streetwear Hoodie", "Retro Tracksuit", "Neon Windbreaker", "Frayed Gold Robe",
+      "Celestial Drape", "Burnt Sage Robe",
+      "Boomer Golf Polo", "Boomer Hawaiian Shirt",
+      "Gen X Leather Jacket", "Gen X Trench Coat", "Gen X Band Tee",
+      "Millennial Cardigan", "Millennial Flannel Hoodie", "Millennial Startup Tee",
+      "Gen Z Puffer Jacket", "Gen Z Tech Vest", "Gen Z Cropped Hoodie",
+      "Gen Z Workwear Overshirt", "Gen Z Corduroy Jacket",
+      "Crypto Bro Windbreaker", "NFT Event Tee", "Work From Home Robe"
+    ],
+    "HeadAccessories": {
+      "Shell Earring": "#E3C8F9",
+      "Coral Brooch": "#FF6B6B",
+      "Crystal Circlet": "#BDE0FE",
+      "Floating Halo": "#FFD93D",
+      "Tye-Dye Bandana": "tye-dye",
+      "Peace Medallion": "#FFD93D",
+      "Goggles": "#4EA8DE",
+      "Bandana": "#B5179E",
+      "Headwrap": "#C1FBA4",
+      "None": null,
+      "starfish": "#FFB400",
+      "backwards cap": "#3A506B",
+      "seaweed crown": "#A8E6CF"
+    },
+    "BodyAccessories": {
+      "Tool Belt": "#C1A57B",
+      "Broken Watch": "#D95D39",
+      "Name Badge": "#FFF3B0",
+      "Keychain": "#FFD93D",
+      "Messenger Bag": "#3C1642",
+      "Satchel Strap": "#6E7C7C",
+      "Crossbody Pouch": "#BDE0FE",
+      "Utility Harness": "#4A5759",
+      "Pendant Stone": "#E07A5F",
+      "Work ID Lanyard": "#B56576",
+      "Chest Pendant": "#F7C59F",
+      "None": null
+    },
+    "TentacleAccessories": {
+      "Beaded Tentacle Ring": "#F7C5E3",
+      "Lunch Pail": "#FF8B6A",
+      "Spatula": "#FF8B6A",
+      "Cracked Mug": "#F4A261",
+      "Sea-glass Pin": "#00B4D8",
+      "Tentacle Bracelet": "#A0CED9",
+      "Armlet Wrap": "#E76F51",
+      "Small Orb": "#CFF4F9",
+      "Cable Tie": "#133C55",
+      "Fabric Wraps": "#B5179E",
+      "Hemp Cord": "#FAD2E1",
+      "Glow Beads": "#FF5DA2",
+      "None": null
+    },
+    "EyeAccessories": {
+      "Round Glasses": "#BDE0FE",
+      "Aviator Shades": "#722F37",
+      "Half-Moon Glasses": "#FFD93D",
+      "None": null
+    },
+    "FaceTentacles": [
+      "Short", "Medium", "Long", "None"
+    ],
+    "EyeExpressions": [
+      "Calm", "Curious", "Sleepy", "Focused", "Annoyed", "Dreamy", "Determined",
+      "Playful", "Weary", "Sarcastic", "Greedy", "Resigned", "Exhausted", "Irritated",
+      "Unimpressed", "Distracted", "Blank"
+    ],
+    "MouthExpressions": [
+      "Neutral", "Closed Grin", "Slight Smile", "Smirk", "Frown", "Toothy Grin",
+      "Laughing", "Tentacle Mouth", "Exasperated", "Pursed", "Sighing", "Yawning",
+      "Grimace", "Cigarette Hold", "Slack-Jawed", "Half-Smile"
+    ],
+    "Style": "vivid cartoon collectible style mixing mythic and mundane. Bold outlines, flat saturated colors, smooth gradients, no realism, no shadows, facing right, portrait style  right facing, full upper-body framing with tentacles visible. No text, letters, numbers, or symbols anywhere in the art.",
+    "Sizing": "Portrait 2:3 canvas (512w × 768h) showing the octopus from crown to lowest tentacle tips with even spacing above and below. Keep the figure centered, shoulders and upper tentacles visible, match the same camera distance every time, never crop the crown or tentacle tips, and preserve clean negative space behind the profile.",
+    "NegativePrompt": "text, letters, words, numbers, symbols, logos, emblems, writing, labels, patches, realistic textures, reflections, shadows, metallic finishes, glossy skin, facing left, symmetry, photorealism, dark backgrounds, muted tones, 3D rendering, human anatomy, cinematic blur, fog, extra limbs, text on mugs or clothing, no tools or text labels, legs, feet, no human posture, no bipedal stance"
+  }
+}
