@@ -9,19 +9,16 @@
 
       "#1B1B1B", "#2E294E", "#3C1642", "#1F2041", "#3A506B", "#4A5759", "#133C55",
       "#6E7C7C", "#884C5E", "#722F37", "#7F4F24", "#3C2A4D", "#645CBB", "#C1A57B",
-      "#B5179E", "#00F5D4", "#C1FBA4", "#FF5DA2", "#E6B8F5", "#9BF6FF"
+      "#B5179E", "#00F5D4", "#C1FBA4", "#FF5DA2", "#E6B8F5", "#9BF6FF",
+
+      "#845EC2", "#B39CD0", "#FF6F91", "#FF9671", "#FFC75F", "#F9F871",
+      "#00C9A7", "#00B8A9", "#008E9B", "#4E8397", "#C34A36", "#A34A28"
     ],
     "BackgroundPool": [
-      "#FAE1A7",
-      "#FFF3B0",
-      "#FAEDCB",
-      "#F7D488",
-      "#FFE066",
-      "#F9D8B7",
-      "#EDE8F3",
-      "#BDE0FE",
-      "#CFF4F9",
-      "#F7C5E3"
+      "#E3F0FF", "#D9F8FF", "#D4FFE8", "#DAF2FF", "#DDF1F5",
+      "#E4EBFF", "#E6E4FF", "#F1E3FF", "#F8E4FF", "#FFE4F2",
+      "#F5E0E7", "#FBE2E2", "#E9F5D6", "#D4F7E4", "#D6F0FF",
+      "#E2FBFF", "#E0F4F6", "#E0EBFF", "#F2E6FF", "#F6E0F1"
     ],
     "SkinTypes": {
       "TieDye": 0.22,
@@ -35,37 +32,37 @@
     "HeadTypes": [
       "Smooth",
       "tentacled",
-      "Barnacle Ridge",
+      "Barnacle Growth",
       "Veined Dome",
       "Wrinkled Elder",
       "Chromatic Bulb",
-      "Horned Crest",
-      "Bioluminescent Spots"
+      "Corrupted Barnacle Infestation",
+      "Bioluminescent Spots",
+      "Translucent Jellyhead",
+      "Ink-Bloom Swirl marbled dye patterns across the dome"
     ],
     "Outfits": [
-      "Planet Earth White Tee", "Planet Mars Black Tee", "Oil-Stained Apron", "Dockworker's Coat", "Grease-Streaked Tunic",
+      "White Tee", "Black Tee", "Oil-Stained Apron", "Dockworker's Coat", "Grease-Streaked Tunic",
       "Hi-Vis Vest", "Denim Jacket", "Graphic Tee", "Work Polo", "Plaid Flannel", "Hoodie",
       "Puffer Vest", "Chef Apron", "Courier Windbreaker",
       "Construction Harness", "Barista Apron", "Delivery Jacket",
-      "Streetwear Hoodie", "Retro Tracksuit", "Neon Windbreaker", "Frayed Gold Robe",
-      "Celestial Drape", "Burnt Sage Robe",
+      "Streetwear Hoodie", "Retro Tracksuit", "Neon Windbreaker",
       "Boomer Golf Polo", "Boomer Hawaiian Shirt",
-      "Gen X Leather Jacket", "Gen X Trench Coat", "Gen X Band Tee",
-      "Millennial Cardigan", "Millennial Flannel Hoodie", "Millennial Startup Tee",
+      "Gen X Leather Jacket", "Gen X Trench Coat",
+      "Millennial Cardigan", "Millennial Flannel Hoodie",
       "Gen Z Puffer Jacket", "Gen Z Tech Vest", "Gen Z Cropped Hoodie",
       "Gen Z Workwear Overshirt", "Gen Z Corduroy Jacket",
-      "Crypto Bro Windbreaker", "NFT Event Tee", "Work From Home Robe"
+      "Crypto Bro Windbreaker"
     ],
     "HeadAccessories": {
       "Shell Earring": "#E3C8F9",
-      "Coral Brooch": "#FF6B6B",
-      "Crystal Circlet": "#BDE0FE",
       "Floating Halo": "#FFD93D",
-      "Tye-Dye Bandana": "tye-dye",
-      "Peace Medallion": "#FFD93D",
-      "Goggles": "#4EA8DE",
-      "Bandana": "#B5179E",
+      "mushroom beanie": "beanie with amanita mushroom emblem",
+      "fisherman beanie": "blue with two green stripes",
+      "frayed cloth strip": "any color",
+      "Bandana": "any color",
       "Headwrap": "#C1FBA4",
+      "distressed 5 panel hat": "5 panel hat with any color",
       "None": null,
       "starfish": "#FFB400",
       "backwards cap": "#3A506B",
@@ -74,53 +71,57 @@
     "BodyAccessories": {
       "Tool Belt": "#C1A57B",
       "Broken Watch": "#D95D39",
-      "Name Badge": "#FFF3B0",
       "Keychain": "#FFD93D",
-      "Messenger Bag": "#3C1642",
-      "Satchel Strap": "#6E7C7C",
-      "Crossbody Pouch": "#BDE0FE",
+      "Leather Crossbody Pouch": "#BDE0FE",
       "Utility Harness": "#4A5759",
-      "Pendant Stone": "#E07A5F",
-      "Work ID Lanyard": "#B56576",
+      "tatoos": "",
       "Chest Pendant": "#F7C59F",
       "None": null
     },
     "TentacleAccessories": {
       "Beaded Tentacle Ring": "#F7C5E3",
-      "Lunch Pail": "#FF8B6A",
-      "Spatula": "#FF8B6A",
+      "Tentacle Piercing": "metal",
+      "ethereal flame orb": "",
+      "driftwood": "driftwood",
+      "beer bottle": "beer bottle",
+      "surfboard": "surfboard",
+      "vape pen": "#FFC75F",
+      "gold chain bracelet": "golden",
+      "ToGo Coffee Cup": "white cup, black lid",
+      "silver chain bracelet": "silver",
+      "marijuana joint": "#FFC75F",
+      "Soda Can": "#FF8B6A",
       "Cracked Mug": "#F4A261",
-      "Sea-glass Pin": "#00B4D8",
-      "Tentacle Bracelet": "#A0CED9",
-      "Armlet Wrap": "#E76F51",
+      "wooden Bracelet": "#A0CED9",
       "Small Orb": "#CFF4F9",
-      "Cable Tie": "#133C55",
-      "Fabric Wraps": "#B5179E",
-      "Hemp Cord": "#FAD2E1",
-      "Glow Beads": "#FF5DA2",
-      "None": null
+      "linen gauze Wraps": "#B5179E",
+      "Hemp Cord bracelet": "#FAD2E1"
     },
     "EyeAccessories": {
-      "Round Glasses": "#BDE0FE",
-      "Aviator Shades": "#722F37",
-      "Half-Moon Glasses": "#FFD93D",
+      "Eye Shadow": "#FAD2E1",
+      "Smudged Eyeliner": "",
+      "Freckle Cluster": "freckles",
+      "Cyborg Lens": "one eye only has a cybernetic lens",
+      "Under-Eye Glitter": "",
+      "Eye Bags": "dark circles",
+      "Bloodshot Eyes": "red eyes",
+      "Sunglasses": "black",
+      "under eye bandage": "bandage",
       "None": null
     },
     "FaceTentacles": [
       "Short", "Medium", "Long", "None"
     ],
     "EyeExpressions": [
-      "Calm", "Curious", "Sleepy", "Focused", "Annoyed", "Dreamy", "Determined",
-      "Playful", "Weary", "Sarcastic", "Greedy", "Resigned", "Exhausted", "Irritated",
-      "Unimpressed", "Distracted", "Blank"
+      "Calm", "Curious", "Sleepy", "Focused", "Annoyed","Determined",
+       "Weary", "Sarcastic", "Greedy", "Resigned", "Exhausted", "Irritated",
+      "Unimpressed", "Distracted"
     ],
-    "MouthExpressions": [
-      "Neutral", "Closed Grin", "Slight Smile", "Smirk", "Frown", "Toothy Grin",
-      "Laughing", "Tentacle Mouth", "Exasperated", "Pursed", "Sighing", "Yawning",
-      "Grimace", "Cigarette Hold", "Slack-Jawed", "Half-Smile"
+    "EyeColors": [
+      "#FFFFFF", "#F8F4EC", "#FFF7F0", "#FEE4E1", "#FFE4DA",
+      "#FAD9C1", "#FFDAD4", "#FFEBE0", "#FFE7D9", "#FFD9C4"
     ],
     "Style": "vivid cartoon collectible style mixing mythic and mundane. Bold outlines, flat saturated colors, smooth gradients, no realism, no shadows, facing right, portrait style  right facing, full upper-body framing with tentacles visible. No text, letters, numbers, or symbols anywhere in the art.",
-    "Sizing": "Portrait 2:3 canvas (512w × 768h) showing the octopus from crown to lowest tentacle tips with even spacing above and below. Keep the figure centered, shoulders and upper tentacles visible, match the same camera distance every time, never crop the crown or tentacle tips, and preserve clean negative space behind the profile.",
     "NegativePrompt": "text, letters, words, numbers, symbols, logos, emblems, writing, labels, patches, realistic textures, reflections, shadows, metallic finishes, glossy skin, facing left, symmetry, photorealism, dark backgrounds, muted tones, 3D rendering, human anatomy, cinematic blur, fog, extra limbs, text on mugs or clothing, no tools or text labels, legs, feet, no human posture, no bipedal stance"
   }
 }
