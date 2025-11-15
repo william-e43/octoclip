@@ -15,16 +15,11 @@ def random_choice(pool):
 # --- Generate Cephalopod Elder ---
 def generate_cephalopod_prompt():
     base_color, underside_color, sucker_color = choose_distinct(TRAITS["ColorPool"])
-    background_color = random_choice(TRAITS["BackgroundPool"])
+    background_color = "#FFFFFF"
     eye_color = random_choice(TRAITS.get("EyeColors", ["#FFFFFF"]))
 
     skin_palette = {base_color, underside_color, sucker_color}
     tries = 0
-    while background_color in skin_palette or background_color == eye_color:
-        background_color = random_choice(TRAITS["BackgroundPool"])
-        tries += 1
-        if tries > 20:
-            break
     outfit = random_choice(TRAITS["Outfits"])
 
     # Accessories are now dicts: get key and color
@@ -57,23 +52,25 @@ def generate_cephalopod_prompt():
             return "no prominent face tentacles"
         return f"{length.lower()} face tentacles"
 
-    prompt = textwrap.dedent(f"""
+    raw_prompt = textwrap.dedent(f"""
 Render a collectible anthropomorphic octopus in a consistent vector-friendly cartoon template.
 
-• Composition: Upright, relaxed 3/4 right pose. Full mantle and all eight tentacles visible, nothing cropped, no mouth.
-• Style: Uniform line weight, closed vector paths, flat fills only. No gradients, no textures, no realism.
-    • Colors: Use hex colors exactly — base {base_color}, underside {underside_color}, suckers {sucker_color}, background {background_color}, eyes {eye_color}.
-• Accessories: Outfit {outfit.lower()}, head {acc_desc(head_accessory)}, body {acc_desc(body_accessory)}, tentacles {tentacle_acc_desc(tentacle_accessories)}, eyes {acc_desc(eye_accessory)}.
-• Expression: Eyes {eyes.lower()}.
-• Framing: Keep full character inside a 2:3 portrait with balanced whitespace.
-• Coloring: outfits and accessories different from the skin or background.
-• Details: Ensure tentacles wrap around accessories. Tentacles SHOULD NOT grasp accessories like a human with fingers.
-• Details: Ensure eyes are not the same color as the skin or background.
-• Style lock: The output should adhere to the silhouette and proportions of the
+- Composition: Upright, relaxed 3/4 right pose. Full mantle and all eight tentacles visible, tentacles are all distinct from one another. And clearly outlined. nothing cropped, no mouth.
+    - Style: Uniform line weight, closed vector paths, flat fills only. No gradients, no textures, no realism.
+    - Colors: Use hex colors exactly — base {base_color}, underside {underside_color}, suckers {sucker_color}, background {background_color}, eyes {eye_color}.
+    - Background: Ensure the entire canvas is pure white (255, 255, 255) with no gradient, shadow, or texture; the white fill must cover the whole background.
+- Accessories: Outfit {outfit.lower()}, head {acc_desc(head_accessory)}, body {acc_desc(body_accessory)}, tentacles {tentacle_acc_desc(tentacle_accessories)}, eyes {acc_desc(eye_accessory)}.
+- Expression: Eyes {eyes.lower()}.
+- Framing: Keep full character inside a 2:3 portrait with balanced whitespace.
+- Coloring: outfits and accessories different from the skin or background.
+- Details: Ensure tentacles wrap around accessories. Tentacles SHOULD NOT grasp accessories like a human with fingers.
+- Details: Ensure eyes are not the same color as the skin or background.
+- Style lock: The output should adhere to the silhouette and proportions of the
 
 Negative constraints: {TRAITS["NegativePrompt"]}
 """)
 
+    prompt = raw_prompt.replace("'", "")
     negative_prompt = TRAITS["NegativePrompt"]
 
     system_instructions = (
