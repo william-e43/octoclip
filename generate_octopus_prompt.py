@@ -62,7 +62,7 @@ Render a collectible anthropomorphic octopus in a consistent vector-friendly car
 - Accessories: Outfit {outfit.lower()}, head {acc_desc(head_accessory)}, body {acc_desc(body_accessory)}, tentacles {tentacle_acc_desc(tentacle_accessories)}, eyes {acc_desc(eye_accessory)}.
 - Expression: Eyes {eyes.lower()}.
 - Framing: Keep full character inside a 2:3 portrait with balanced whitespace.
-- Coloring: outfits and accessories different from the skin or background.
+    - Coloring: outfits and accessories must each use a color palette distinct from the skin color (and the background); avoid repeating the skin tone when coloring clothing or accessories.
 - Details: Ensure tentacles wrap around accessories. Tentacles SHOULD NOT grasp accessories like a human with fingers.
 - Details: Ensure eyes are not the same color as the skin or background.
 - Style lock: The output should adhere to the silhouette and proportions of the

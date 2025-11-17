@@ -109,9 +109,9 @@
       "Short", "Medium", "Long", "None"
     ],
     "EyeExpressions": [
-      "Calm", "Curious", "Sleepy", "Focused", "Annoyed","Determined",
-       "Weary", "Sarcastic", "Greedy", "Resigned", "Exhausted", "Irritated",
-      "Unimpressed", "Distracted"
+      "Sleepy", "Focused", "Annoyed", "Apathetic", "Indifferent",
+       "Weary", "Sarcastic", "Greedy", "Resigned", "Exhausted",
+      "Unimpressed", "Distracted", "Sickly", "Dazed", "Confused"
     ],
     "EyeColors": [
       "#FFFFFF", "#F8F4EC", "#FFF7F0", "#FEE4E1", "#FFE4DA",
